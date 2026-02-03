@@ -1,0 +1,28 @@
+{
+  "name": "mini-multi-tenant-workspace-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for lightweight workspace & task management system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "workspace",
+    "task-management",
+    "rest-api",
+    "multi-tenant"
+  ],
+  "author": "Yousef Elsonbaty",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
