@@ -66,7 +66,7 @@ const createTables = () => {
         FOREIGN KEY (assigned_to) REFERENCES users(id) ON DELETE SET NULL
       )
     `, () => {
-      console.log('✅ Database tables created successfully');
+      console.log('Database tables created successfully');
     });
   });
 };
