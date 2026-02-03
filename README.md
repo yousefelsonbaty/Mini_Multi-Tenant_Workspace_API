@@ -1,6 +1,6 @@
 # Mini Multi-Tenant Workspace API
 
-A RESTful API for lightweight workspace & task management system built with Node.js, Express, and SQLite.
+Mini Multi-Tenant Workspace API is a RESTful API built with Node.js, Express, and SQLite for managing workspaces and tasks. Users can create workspaces, assign tasks to team members, and track completion rates. The multi-tenant architecture isolates workspace data while supporting role-based membership and comprehensive statistics across teams.
 
 ## 📋 Track Chosen
 
